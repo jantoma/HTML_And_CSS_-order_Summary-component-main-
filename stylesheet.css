@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+
+.generalist, body {
+    min-height: 100vh;
+    background:hsl(225, 100%, 94%) url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:  120%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+}
+
+
+.box {
+    background-color: hsl(225, 100%, 100%);
+    box-sizing: border-box;
+    width: 450px;
+    height: 645px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgb(59, 59, 59);
+}
+
+.box-body {
+    padding: 10px 70px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;  
+}
+
+h2 {
+    margin-top: 20px;
+    font-weight: 900;
+}
+h4 {
+    font-weight: 700;
+}
+
+p {
+    color: #b1b1b4;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box-plan {
+    background-color: hsl(225, 100%, 98%);
+    padding: 1.5em; 
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1em;
+    border-radius: 12px;
+}
+
+.icon-mus img {
+    height: 2.5em;
+}
+
+ .details {
+    flex-grow: 1;
+    text-align: left;
+ }
+
+
+ 
+ .one-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: #ffff;
+    padding : 15px 25px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px hsl(245, 75%, 52%);
+    cursor: pointer;
+ }
+
+ 
+
+ .one-btn:hover {
+    background-color:  hsl(251, 73%, 55%);
+ }
+
+
+
+ .two-btn {
+    background-color: hsla(228, 100%, 98%, 0.458);
+    color:  hsl(222, 6%, 34%);
+    padding : 15px 25px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
